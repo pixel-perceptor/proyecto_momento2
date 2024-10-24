@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Poppins_regular";
+  src: url(/semana_10/scr/font/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Poppins_Black";
+  src: url(/semana_10/scr/font/Poppins/Poppins-Black.ttf);
+}
+
+html {
+  font-family: "Poppins_regular";
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+}
+
+nav img {
+  width: 150px;
+  padding-left: 20px;
+}
+
+nav .botones {
+  padding: 20px;
+}
+
+nav .botones a {
+  color: rgb(252, 252, 252);
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav .botones a:hover {
+  color: aqua;
+  padding: 15px;
+  transition-duration: 500ms;
+}
+
+main {
+  gap: 2%;
+  margin: 50px;
+}
+
+.bienvenida {
+  text-align: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.bienvenida h2 {
+  margin: 20px;
+}
+.bienvenida p {
+  font-size: 10px;
+  width: 600px;
+  margin: auto;
+}
+
+.bienvenida hr {
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 200px;
+  align-items: center;
+}
+
+.titulo {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.temasQuejas {
+  display: flex;
+  gap: 3%;
+  justify-content: space-between;
+}
+
+.temasQuejas a {
+    text-decoration: none;
+    color: black;
+}
+
+.Producto {
+    text-align: center;
+    flex-basis: 30%;
+    padding: 50px;
+    border: solid black 3px;
+    border-radius: 30px;
+}
+
+.Producto:hover {
+    border: solid blue 3px;
+    flex-basis: 40%;
+    transition-duration: 800ms;
+    text-align: center;
+    padding: 65px ;
+}
+
+.Calidad {
+    text-align: center;
+    flex-basis: 30%;
+    padding: 50px;
+    border: solid black 3px;
+    border-radius: 30px;
+}
+
+.Calidad:hover {
+    border: solid blue 3px;
+    flex-basis: 40%;
+    transition-duration: 800ms;
+    text-align: center;
+    padding: 65px ;
+}
+
+
+.MalExp {
+    text-align: center;
+    flex-basis: 30%;
+    padding: 50px;
+    border: solid black 3px;
+    border-radius: 30px;
+}
+
+.MalExp:hover {
+    border: solid blue 3px;
+    flex-basis: 40%;
+    transition-duration: 800ms;
+    text-align: center;
+    padding: 65px ;
+}
+
+footer {
+    border: solid rgb(0, 128, 0) 3px;
+    padding: 80px;
+    margin-top: 10px;
+    text-align: center;
+  }
